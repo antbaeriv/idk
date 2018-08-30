@@ -2,11 +2,9 @@
 @import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
 
 .themed-content{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    width: 100%;
+    height: 100%;
+
 }
  
 .themed-content.default{
@@ -16,4 +14,9 @@
 .themed-content.crazy {
     color: #e1e8ed;
     background-color:#1b2836;
+}
+
+body {
+    display: block;
+    margin: 0% !important;
 }
